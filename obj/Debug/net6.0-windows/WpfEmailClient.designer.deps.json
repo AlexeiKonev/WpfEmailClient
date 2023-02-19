@@ -5,24 +5,7 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {
-      "ImapX/2.0.0.18": {
-        "runtime": {
-          "lib/net46/ImapX.dll": {
-            "assemblyVersion": "2.0.0.18",
-            "fileVersion": "2.0.0.18"
-          }
-        }
-      }
-    }
+    ".NETCoreApp,Version=v6.0": {}
   },
-  "libraries": {
-    "ImapX/2.0.0.18": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-L7teY0omaWETBSqAIsA/5bWvBxZFBGvieN9JmT0j5BOEx4xYpaQgXaCx4C7X+Fp/SQ8PSR1L3cHnxHOP0e3/IA==",
-      "path": "imapx/2.0.0.18",
-      "hashPath": "imapx.2.0.0.18.nupkg.sha512"
-    }
-  }
+  "libraries": {}
 }
