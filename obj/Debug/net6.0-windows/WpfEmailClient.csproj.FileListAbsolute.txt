@@ -19,3 +19,5 @@ C:\Users\Alex\source\repos\WpfEmailClient\obj\Debug\net6.0-windows\refint\WpfEma
 C:\Users\Alex\source\repos\WpfEmailClient\obj\Debug\net6.0-windows\WpfEmailClient.pdb
 C:\Users\Alex\source\repos\WpfEmailClient\obj\Debug\net6.0-windows\WpfEmailClient.genruntimeconfig.cache
 C:\Users\Alex\source\repos\WpfEmailClient\obj\Debug\net6.0-windows\ref\WpfEmailClient.dll
+C:\Users\Alex\source\repos\WpfEmailClient\bin\Debug\net6.0-windows\ImapX.dll
+C:\Users\Alex\source\repos\WpfEmailClient\obj\Debug\net6.0-windows\WpfEmailClient.csproj.CopyComplete

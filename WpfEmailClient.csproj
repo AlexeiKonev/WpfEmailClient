@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ImapX" Version="2.0.0.18" />
+  </ItemGroup>
+
 </Project>

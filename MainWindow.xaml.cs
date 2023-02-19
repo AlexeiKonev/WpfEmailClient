@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ImapX;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WpfEmailClient {
     /// <summary>
@@ -20,10 +8,34 @@ namespace WpfEmailClient {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+
+
+
+
+
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
-            TextS.Content = InputName.Text;
+
+
+            ImapClient client = new ImapClient("imap.gmail.com", true);
+            if (client.Connect( /* optional, use parameters here */ )) {
+                 
+                if (client.Login(NameInput.Text, PasswordInput.Text)) {
+                  ConnectStatusBox.IsChecked = true;  // login successful
+                } // connection successful
+            }
+            else {
+                ConnectStatusBox.IsChecked = false;  // connection not successful
+            }
+
+            ;
+            //TextS.Content = InputName.Text;
+        }
+
+        private void NameInput_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e) {
+
         }
     }
 }

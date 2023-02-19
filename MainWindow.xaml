@@ -7,19 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="show input" HorizontalAlignment="Left" Height="58" Margin="10,156,0,0" VerticalAlignment="Top" Width="280" Click="Button_Click"/>
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Height="58" Margin="175,145,0,0" VerticalAlignment="Top" Width="280" Click="Button_Click"/>
         <Label x:Name="TextS" Content="" HorizontalAlignment="Left" Margin="31,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="331" Height="97" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Background="#FFB0C2D5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="0.75"/>
+                    <RotateTransform Angle="-0.227"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
         <Button Content="Button" HorizontalAlignment="Left" Margin="400,335,0,0" VerticalAlignment="Top" Height="59" Width="120"/>
-        <TextBox x:Name="InputName" HorizontalAlignment="Left" Margin="391,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="391,66,0,0" TextWrapping="Wrap" Text="alexkonev777@gmail.com" VerticalAlignment="Top" Width="203" TextChanged="NameInput_TextChanged"/>
+        <CheckBox x:Name="ConnectStatusBox" Content="ConnectStatusBox" HorizontalAlignment="Left" Margin="377,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PasswordInput" HorizontalAlignment="Left" Margin="391,104,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="124"/>
 
     </Grid>
 </Window>
