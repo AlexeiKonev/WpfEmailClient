@@ -19,7 +19,7 @@
             </Label.RenderTransform>
         </Label>
         <Button Content="Button" HorizontalAlignment="Left" Margin="400,335,0,0" VerticalAlignment="Top" Height="59" Width="120"/>
-        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="391,66,0,0" TextWrapping="Wrap" Text="alexkonev777@gmail.com" VerticalAlignment="Top" Width="203" TextChanged="NameInput_TextChanged"/>
+        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="391,66,0,0" TextWrapping="Wrap" Text="@gmail.com" VerticalAlignment="Top" Width="203" TextChanged="NameInput_TextChanged"/>
         <CheckBox x:Name="ConnectStatusBox" Content="ConnectStatusBox" HorizontalAlignment="Left" Margin="377,10,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="PasswordInput" HorizontalAlignment="Left" Margin="391,104,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="124"/>
 
