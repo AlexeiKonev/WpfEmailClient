@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ImapX/2.0.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/net46/ImapX.dll": {}
+        },
+        "runtime": {
+          "lib/net46/ImapX.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImapX/2.0.0.18": {
+      "sha512": "L7teY0omaWETBSqAIsA/5bWvBxZFBGvieN9JmT0j5BOEx4xYpaQgXaCx4C7X+Fp/SQ8PSR1L3cHnxHOP0e3/IA==",
+      "type": "package",
+      "path": "imapx/2.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "imapx.2.0.0.18.nupkg.sha512",
+        "imapx.nuspec",
+        "lib/net20/ImapX.dll",
+        "lib/net30/ImapX.dll",
+        "lib/net35-client/ImapX.dll",
+        "lib/net35/ImapX.dll",
+        "lib/net40-client/ImapX.dll",
+        "lib/net40/ImapX.dll",
+        "lib/net45/ImapX.dll",
+        "lib/net451/ImapX.dll",
+        "lib/net452/ImapX.dll",
+        "lib/net46/ImapX.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ImapX >= 2.0.0.18"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alex\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\WpfEmailClient\\WpfEmailClient.csproj",
+      "projectName": "WpfEmailClient",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\WpfEmailClient\\WpfEmailClient.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\WpfEmailClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "ImapX": {
+            "target": "Package",
+            "version": "[2.0.0.18, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ImapX 2.0.0.18\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ImapX",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
